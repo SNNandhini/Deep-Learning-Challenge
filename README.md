@@ -12,8 +12,8 @@ The steps followed to create the model are as follows:
 ## 1)   Preprocess the Data
 -   Pandas and scikit-learn’s StandardScaler() are used to preprocess the dataset. 
 -   Read in the charity_data.csv to a Pandas DataFrame.
-        Identify target(s) for the model.
-        Identify feature(s) for the model.
+    -   Identify target(s) for the model.
+    -   Identify feature(s) for the model.
 -   Drop the EIN and NAME columns.
 -   Determine the number of unique values for each column.
 -   For columns that have more than 10 unique values, determine the number of data points for each unique value.
